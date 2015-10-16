@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomToastDemo</string>
+    <string name="show_toast">显示Toast</string>
+    <string name="show_default_toast">显示默认toast</string>
+</resources>
