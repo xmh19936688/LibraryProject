@@ -32,15 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_show:
                 Toast toast = new Toast(this);
                 View view = LayoutInflater.from(this).inflate(R.layout.layout_toast,null);
-                Button btn= (Button) view.findViewById(R.id.btn_another);
-                btn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Toast.makeText(MainActivity.this,"demo",Toast.LENGTH_SHORT).show();
-                    }
-                });
-                toast.setView(view);
-                toast.setGravity(Gravity.CENTER,0,0);
+                toast.setView(view);//only used while toast is not made by "makeText"
+                toast.setGravity(Gravity.CENTER, 0, 0);
+                toast.setDuration(Toast.LENGTH_SHORT);
                 toast.show();
                 break;
         }
