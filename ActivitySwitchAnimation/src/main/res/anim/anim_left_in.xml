@@ -20,7 +20,8 @@
         android:duration="300"
         android:interpolator="@android:anim/accelerate_interpolator"/>
 
-    <!--平移、透明度、缩放、旋转都属于 View Animation-->
+    <!--平移、透明度、缩放、旋转都属于 View Animation中的TweenAnimation-->
+    <!--ViewAnimation中还有FramAnimation-->
     <!--除ViewAnimation之外还有PropertyAnimation、DrawableAnimation-->
     <!--http://developer.android.com/intl/zh-cn/guide/topics/graphics/overview.html-->
     <!--http://developer.android.com/intl/zh-cn/guide/topics/resources/animation-resource.html#Property-->
