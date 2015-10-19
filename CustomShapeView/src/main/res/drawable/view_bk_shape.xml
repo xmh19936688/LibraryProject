@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--圆角(可分别指定某一个角或一次指定四个角)-->
+    <corners
+        android:radius="50dp"/>
+
+    <!--纯色填充-->
+    <!--若solid与gradient同时出现，写在后面的会覆盖写在前面的效果-->
+    <solid
+        android:color="@color/colorPrimary"/>
+
+    <!--渐变填充-->
+    <!--angle渐变线相对水平的角度,只能为45的倍数，默认为0，即从左到右;-->
+    <!--startColor,centerColor,endColor分别为三个渐变色，也可以只用startColor和endColor-->
+    <!--type:渐变方式，radial：从中间向外；linear：直线；sweep：一圈渐变。默认为直线-->
+    <!--gradientRadius:中心渐变时渐变程度，若为指定此属性，type中的radial不可用-->
+    <!--centerX,centerY指定渐变中心的坐标-->
+    <!--若solid与gradient同时出现，写在后面的会覆盖写在前面的效果-->
+    <gradient
+        android:startColor="@color/colorPrimaryDark"
+        android:centerColor="@android:color/black"
+        android:endColor="@color/colorAccent"
+        android:type="sweep"/>
+
+    <!--分别指定四个方向上的padding-->
+    <padding
+        android:top="5dp"
+        android:bottom="500dp"/>
+
+    <!--指定宽高-->
+    <!--若指定宽高，则显示效果同一张固定大小的图片使用了fitCenter-->
+    <size
+        android:width="200dp"
+        android:height="200dp"/>
+
+    <!--边框-->
+    <!--color边框颜色，默认黑色-->
+    <!--width边框宽度-->
+    <!--dashGap:虚线边框时虚部长度-->
+    <!--dashWidth:虚线边框时实部长度-->
+    <!--虚线效果需要同时指定dashGap与dashWidth-->
+    <stroke
+        android:color="@color/colorAccent"
+        android:width="30dp"
+        android:dashGap="10dp"
+        android:dashWidth="300dp"/>
+
+</shape>
