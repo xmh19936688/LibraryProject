@@ -15,8 +15,8 @@
     <!--fromYDelta/toYDelta：开始/结束纵向偏移，正数为下，负数为上，可以是整数，可以是百分比-->
     <!--duration：持续时间-->
     <translate
-        android:fromYDelta="100%"
-        android:toYDelta="0"
+        android:fromXDelta="100%"
+        android:toXDelta="0"
         android:duration="300"
         android:interpolator="@android:anim/accelerate_interpolator"/>
 
