@@ -4,10 +4,11 @@
     android:layout_height="wrap_content"
     android:background="@drawable/dialog_background">
 
-    <TextView
+    <ImageView
+        android:id="@+id/iv_anim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="testy"/>
+        android:src="@anim/image_animation"/>
 
 </RelativeLayout>
