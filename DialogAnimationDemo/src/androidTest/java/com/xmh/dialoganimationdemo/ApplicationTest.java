@@ -1,4 +1,4 @@
-package com.xmh.customtoastdemo;
+package com.xmh.dialoganimationdemo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
