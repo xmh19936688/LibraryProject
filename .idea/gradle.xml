@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/FrameAnimationImageViewDemo" />
             <option value="$PROJECT_DIR$/PullToRefreshLibrary" />
             <option value="$PROJECT_DIR$/PullToRefreshSample" />
+            <option value="$PROJECT_DIR$/PullToRefreshScrollViewDemo" />
           </set>
         </option>
       </GradleProjectSettings>
