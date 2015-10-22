@@ -1,1 +1,1 @@
-include ':CustomToastDemo', ':CustomShapeView', ':ActivitySwitchAnimation', ':DialogAnimationDemo', ':FrameAnimationImageViewDemo'
+include ':CustomToastDemo', ':CustomShapeView', ':ActivitySwitchAnimation', ':DialogAnimationDemo', ':FrameAnimationImageViewDemo', ':PullScrollViewDemo'

@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/CustomToastDemo" />
             <option value="$PROJECT_DIR$/DialogAnimationDemo" />
             <option value="$PROJECT_DIR$/FrameAnimationImageViewDemo" />
+            <option value="$PROJECT_DIR$/PullScrollViewDemo" />
           </set>
         </option>
       </GradleProjectSettings>
