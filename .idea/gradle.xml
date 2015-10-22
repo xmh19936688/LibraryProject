@@ -15,7 +15,8 @@
             <option value="$PROJECT_DIR$/CustomToastDemo" />
             <option value="$PROJECT_DIR$/DialogAnimationDemo" />
             <option value="$PROJECT_DIR$/FrameAnimationImageViewDemo" />
-            <option value="$PROJECT_DIR$/PullScrollViewDemo" />
+            <option value="$PROJECT_DIR$/PullToRefreshLibrary" />
+            <option value="$PROJECT_DIR$/PullToRefreshSample" />
           </set>
         </option>
       </GradleProjectSettings>

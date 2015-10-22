@@ -8,7 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/DialogAnimationDemo/DialogAnimationDemo.iml" filepath="$PROJECT_DIR$/DialogAnimationDemo/DialogAnimationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/FrameAnimationImageViewDemo/FrameAnimationImageViewDemo.iml" filepath="$PROJECT_DIR$/FrameAnimationImageViewDemo/FrameAnimationImageViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibraryProject.iml" filepath="$PROJECT_DIR$/LibraryProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PullScrollViewDemo/PullScrollViewDemo.iml" filepath="$PROJECT_DIR$/PullScrollViewDemo/PullScrollViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" filepath="$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" />
     </modules>
   </component>
 </project>
