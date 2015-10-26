@@ -11,10 +11,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ActivitySwitchAnimation" />
+            <option value="$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8" />
             <option value="$PROJECT_DIR$/CustomShapeView" />
             <option value="$PROJECT_DIR$/CustomToastDemo" />
             <option value="$PROJECT_DIR$/DialogAnimationDemo" />
             <option value="$PROJECT_DIR$/FrameAnimationImageViewDemo" />
+            <option value="$PROJECT_DIR$/JniInGifMakerDemo" />
             <option value="$PROJECT_DIR$/PullToRefreshLibrary" />
             <option value="$PROJECT_DIR$/PullToRefreshSample" />
             <option value="$PROJECT_DIR$/PullToRefreshScrollViewDemo" />
