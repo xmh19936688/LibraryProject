@@ -50,6 +50,7 @@
         <attr name="ptrSubHeaderTextAppearance" format="reference" />
 
         <!-- Style of Animation should be used displayed when pulling. -->
+        <!--动画类型：旋转；平滑-->
         <attr name="ptrAnimationStyle">
             <flag name="rotate" value="0x0" />
             <flag name="flip" value="0x1" />

@@ -7,8 +7,10 @@
     tools:context=".MainActivity">
 
     <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/ptr_sv_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        ptr:ptrAnimationStyle="flip"
         ptr:ptrDrawable="@mipmap/ic_launcher">
 
         <RelativeLayout
@@ -16,13 +18,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_centerInParent="true"
+                android:gravity="center"
                 android:text="fdjfdkfjdk"/>
-
 
         </RelativeLayout>
 
     </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/ptr_sv_main"
+        android:layout_alignTop="@+id/ptr_sv_main"
+        android:layout_alignRight="@+id/ptr_sv_main"
+        android:layout_alignBottom="@+id/ptr_sv_main"
+        layout="@layout/net_error_layout"/>
 </RelativeLayout>

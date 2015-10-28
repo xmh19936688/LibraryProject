@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="visibility_gone_style">
+        <item name="android:visibility">gone</item>
+    </style>
+
 </resources>
