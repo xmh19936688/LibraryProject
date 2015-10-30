@@ -15,15 +15,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Bean bean=new Bean();
-        bean.setId("ss");
+        bean.setId("sssx");
         bean.setValue("b");
+        bean.setNext("dfd");
+        bean.setOrder(10);
 
         KJDB db=KJDB.create(this,true);
-        db.update(bean);
+        for(Bean item:db.findAll(Bean.class)){
+            db.delete(item);
+        }
+        db.save(bean);
 
-        List<Bean> allByWhere = db.findAllByWhere(Bean.class, "id='ss' and value='b'");
+        List<Bean> allByWhere = db.findAllByWhere(Bean.class, "order='10'");
         if(allByWhere.size()>0){
             allByWhere.get(0).getId();
         }
+
+//        db.save(allByWhere);
     }
 }

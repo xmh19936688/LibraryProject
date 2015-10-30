@@ -8,6 +8,8 @@ import java.io.Serializable;
 public class Bean implements Serializable{
     String id;
     String value;
+    String next;
+    int order;
 
     //region get&set
     public String getId() {
@@ -24,6 +26,22 @@ public class Bean implements Serializable{
 
     public void setValue(String value) {
         this.value = value;
+    }
+
+    public String getNext() {
+        return next;
+    }
+
+    public void setNext(String next) {
+        this.next = next;
+    }
+
+    public int getOrder() {
+        return order;
+    }
+
+    public void setOrder(int order) {
+        this.order = order;
     }
     //endregion
 }

@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" filepath="$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" filepath="$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SqlDemo/SqlDemo.iml" filepath="$PROJECT_DIR$/SqlDemo/SqlDemo.iml" />
     </modules>
   </component>
 </project>
