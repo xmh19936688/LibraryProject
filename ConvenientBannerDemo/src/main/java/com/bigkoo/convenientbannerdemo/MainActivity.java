@@ -1,7 +1,7 @@
 package com.bigkoo.convenientbannerdemo;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -18,7 +18,6 @@ import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -26,7 +25,8 @@ import java.util.List;
  * convenientbanner 控件 的 demo
  */
 public class MainActivity extends ActionBarActivity implements AdapterView.OnItemClickListener {
-    private ConvenientBanner convenientBanner;//顶部广告栏控件
+    /**顶部广告栏控件*/
+    private ConvenientBanner convenientBanner;
     private ArrayList<Integer> localImages = new ArrayList<Integer>();
     private List<String> networkImages;
     private String[] images = {"http://img2.imgtn.bdimg.com/it/u=3093785514,1341050958&fm=21&gp=0.jpg",
@@ -38,9 +38,11 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
             "http://f.hiphotos.baidu.com/image/pic/item/09fa513d269759ee50f1971ab6fb43166c22dfba.jpg"
     };
 
+    //region 下方选项按钮
     private ListView listView;
     private ArrayAdapter transformerArrayAdapter;
     private ArrayList<String> transformerList = new ArrayList<String>();
+    //endregion
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,7 +90,7 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
 //        },networkImages);
     }
 
-    //初始化网络图片缓存库
+    /**初始化网络图片缓存库*/
     private void initImageLoader(){
         //网络图片例子,结合常用的图片缓存库UIL,你可以根据自己需求自己换其他网络图片库
         DisplayImageOptions defaultOptions = new DisplayImageOptions.Builder().
@@ -103,15 +105,11 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
                 .tasksProcessingOrder(QueueProcessingType.LIFO).build();
         ImageLoader.getInstance().init(config);
     }
-    /*
-    加入测试Views
-    * */
+    /**加入测试Views*/
     private void loadTestDatas() {
         //本地图片集合
         for (int position = 0; position < 7; position++)
             localImages.add(getResId("ic_test_" + position, R.drawable.class));
-
-
 
         //各种翻页效果
         transformerList.add(Transformer.DefaultTransformer.getClassName());
