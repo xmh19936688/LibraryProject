@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ActionbarSherlockLibrary" />
             <option value="$PROJECT_DIR$/ActivitySwitchAnimation" />
             <option value="$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8" />
             <option value="$PROJECT_DIR$/ConvenientBannerDemo" />
@@ -18,14 +19,18 @@
             <option value="$PROJECT_DIR$/CustomToastDemo" />
             <option value="$PROJECT_DIR$/DialogAnimationDemo" />
             <option value="$PROJECT_DIR$/DoubleBackExitDemo" />
+            <option value="$PROJECT_DIR$/DragLayoutDemo" />
             <option value="$PROJECT_DIR$/FragmentViewPagerDemo" />
             <option value="$PROJECT_DIR$/FrameAnimationImageViewDemo" />
             <option value="$PROJECT_DIR$/IOCDemo" />
             <option value="$PROJECT_DIR$/JniInGifMakerDemo" />
             <option value="$PROJECT_DIR$/KJDBDemo" />
+            <option value="$PROJECT_DIR$/KeywordsFlowDemo" />
             <option value="$PROJECT_DIR$/PullToRefreshLibrary" />
             <option value="$PROJECT_DIR$/PullToRefreshSample" />
             <option value="$PROJECT_DIR$/PullToRefreshScrollViewDemo" />
+            <option value="$PROJECT_DIR$/SlidingMenuDemo" />
+            <option value="$PROJECT_DIR$/SlidingMenuLibrary" />
             <option value="$PROJECT_DIR$/SqlDemo" />
           </set>
         </option>
