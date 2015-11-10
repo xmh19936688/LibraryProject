@@ -5,13 +5,17 @@
       <module fileurl="file://$PROJECT_DIR$/ActionbarSherlockLibrary/ActionbarSherlockLibrary.iml" filepath="$PROJECT_DIR$/ActionbarSherlockLibrary/ActionbarSherlockLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/ActionbarSherlockLibrary/ActionbarSherlockLibrary.iml" filepath="$PROJECT_DIR$/ActionbarSherlockLibrary/ActionbarSherlockLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/ActivitySwitchAnimation/ActivitySwitchAnimation.iml" filepath="$PROJECT_DIR$/ActivitySwitchAnimation/ActivitySwitchAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActivitySwitchAnimation/ActivitySwitchAnimation.iml" filepath="$PROJECT_DIR$/ActivitySwitchAnimation/ActivitySwitchAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8/AndroidGifDrawableLibrary1.1.8.iml" filepath="$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8/AndroidGifDrawableLibrary1.1.8.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8/AndroidGifDrawableLibrary1.1.8.iml" filepath="$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8/AndroidGifDrawableLibrary1.1.8.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConvenientBannerDemo/ConvenientBannerDemo.iml" filepath="$PROJECT_DIR$/ConvenientBannerDemo/ConvenientBannerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConvenientBannerDemo/ConvenientBannerDemo.iml" filepath="$PROJECT_DIR$/ConvenientBannerDemo/ConvenientBannerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConvenientBannerLibrary/ConvenientBannerLibrary.iml" filepath="$PROJECT_DIR$/ConvenientBannerLibrary/ConvenientBannerLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConvenientBannerLibrary/ConvenientBannerLibrary.iml" filepath="$PROJECT_DIR$/ConvenientBannerLibrary/ConvenientBannerLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomShapeView/CustomShapeView.iml" filepath="$PROJECT_DIR$/CustomShapeView/CustomShapeView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomShapeView/CustomShapeView.iml" filepath="$PROJECT_DIR$/CustomShapeView/CustomShapeView.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomToastDemo/CustomToastDemo.iml" filepath="$PROJECT_DIR$/CustomToastDemo/CustomToastDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DialogAnimationDemo/DialogAnimationDemo.iml" filepath="$PROJECT_DIR$/DialogAnimationDemo/DialogAnimationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DialogAnimationDemo/DialogAnimationDemo.iml" filepath="$PROJECT_DIR$/DialogAnimationDemo/DialogAnimationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" filepath="$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" filepath="$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" />
@@ -19,14 +23,19 @@
       <module fileurl="file://$PROJECT_DIR$/DragLayoutDemo/DragLayoutDemo.iml" filepath="$PROJECT_DIR$/DragLayoutDemo/DragLayoutDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/FragmentViewPagerDemo/FragmentViewPagerDemo.iml" filepath="$PROJECT_DIR$/FragmentViewPagerDemo/FragmentViewPagerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/FrameAnimationImageViewDemo/FrameAnimationImageViewDemo.iml" filepath="$PROJECT_DIR$/FrameAnimationImageViewDemo/FrameAnimationImageViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FrameAnimationImageViewDemo/FrameAnimationImageViewDemo.iml" filepath="$PROJECT_DIR$/FrameAnimationImageViewDemo/FrameAnimationImageViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOCDemo/IOCDemo.iml" filepath="$PROJECT_DIR$/IOCDemo/IOCDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" filepath="$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" filepath="$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/KJDBDemo/KJDBDemo.iml" filepath="$PROJECT_DIR$/KJDBDemo/KJDBDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/KeywordsFlowDemo/KeywordsFlowDemo.iml" filepath="$PROJECT_DIR$/KeywordsFlowDemo/KeywordsFlowDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/KeywordsFlowDemo/KeywordsFlowDemo.iml" filepath="$PROJECT_DIR$/KeywordsFlowDemo/KeywordsFlowDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibraryProject.iml" filepath="$PROJECT_DIR$/LibraryProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" filepath="$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" filepath="$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" filepath="$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" filepath="$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuDemo/SlidingMenuDemo.iml" filepath="$PROJECT_DIR$/SlidingMenuDemo/SlidingMenuDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuDemo/SlidingMenuDemo.iml" filepath="$PROJECT_DIR$/SlidingMenuDemo/SlidingMenuDemo.iml" />
