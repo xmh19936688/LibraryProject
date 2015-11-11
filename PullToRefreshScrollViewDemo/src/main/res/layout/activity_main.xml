@@ -11,7 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         ptr:ptrAnimationStyle="flip"
-        ptr:ptrDrawable="@mipmap/ic_launcher">
+        ptr:ptrDrawable="@mipmap/ic_launcher"
+        ptr:ptrHeaderSubTextVisibility="false"
+        ptr:ptrHeaderTextVisibility="false"
+        >
 
         <RelativeLayout
             android:layout_width="match_parent"

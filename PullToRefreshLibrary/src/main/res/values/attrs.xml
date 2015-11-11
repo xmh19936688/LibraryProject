@@ -15,6 +15,12 @@
         <!-- Text Color of the Header and Footer Loading Views Sub Header -->
         <attr name="ptrHeaderSubTextColor" format="reference|color" />
 
+        <!--子标题显示/隐藏-->
+        <attr name="ptrHeaderSubTextVisibility" format="reference|boolean"/>
+
+        <!--标题显示/隐藏-->
+        <attr name="ptrHeaderTextVisibility" format="reference|boolean"/>
+
         <!-- Mode of Pull-to-Refresh that should be used -->
         <attr name="ptrMode">
             <flag name="disabled" value="0x0" />
@@ -33,6 +39,7 @@
 
         <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
         <attr name="ptrDrawable" format="reference" />
+
 
         <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
         <attr name="ptrDrawableStart" format="reference" />

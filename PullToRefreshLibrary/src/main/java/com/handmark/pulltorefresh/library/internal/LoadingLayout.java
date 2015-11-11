@@ -32,7 +32,9 @@ import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.handmark.pulltorefresh.library.ILoadingLayout;
@@ -47,7 +49,8 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 
 	static final Interpolator ANIMATION_INTERPOLATOR = new LinearInterpolator();
 
-	private FrameLayout mInnerLayout;
+	private RelativeLayout mInnerLayout;
+	private LinearLayout mTextLayout;
 
 	protected final ImageView mHeaderImage;
 	protected final ProgressBar mHeaderProgress;
@@ -59,6 +62,9 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 
 	protected final Mode mMode;
 	protected final Orientation mScrollDirection;
+
+	private boolean canTextVisable=true;
+	private boolean canSubTestVisable=true;
 
 	private CharSequence mPullLabel;
 	private CharSequence mRefreshingLabel;
@@ -79,7 +85,8 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 				break;
 		}
 
-		mInnerLayout = (FrameLayout) findViewById(R.id.fl_inner);
+		mInnerLayout = (RelativeLayout) findViewById(R.id.fl_inner);
+		mTextLayout= (LinearLayout) mInnerLayout.findViewById(R.id.ll_text);
 		mHeaderText = (TextView) mInnerLayout.findViewById(R.id.pull_to_refresh_text);
 		mHeaderProgress = (ProgressBar) mInnerLayout.findViewById(R.id.pull_to_refresh_progress);
 		mSubHeaderText = (TextView) mInnerLayout.findViewById(R.id.pull_to_refresh_sub_text);
@@ -167,6 +174,16 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 					imageDrawable = attrs.getDrawable(R.styleable.PullToRefresh_ptrDrawableBottom);
 				}
 				break;
+		}
+
+		if(attrs.hasValue(R.styleable.PullToRefresh_ptrHeaderTextVisibility)){
+			boolean visibility = attrs.getBoolean(R.styleable.PullToRefresh_ptrHeaderTextVisibility, true);
+			setTextVisibility(visibility);
+		}
+
+		if(attrs.hasValue(R.styleable.PullToRefresh_ptrHeaderSubTextVisibility)){
+			boolean visibility = attrs.getBoolean(R.styleable.PullToRefresh_ptrHeaderSubTextVisibility, true);
+			setSubTextVisibility(visibility);
 		}
 
 		// If we don't have a user defined drawable, load the default
@@ -275,7 +292,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 			if (TextUtils.isEmpty(mSubHeaderText.getText())) {
 				mSubHeaderText.setVisibility(View.GONE);
 			} else {
-				mSubHeaderText.setVisibility(View.VISIBLE);
+				if(canTextVisable&&canSubTestVisable) mSubHeaderText.setVisibility(View.VISIBLE);
 			}
 		}
 	}
@@ -312,7 +329,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 	}
 
 	public final void showInvisibleViews() {
-		if (View.INVISIBLE == mHeaderText.getVisibility()) {
+		if (View.INVISIBLE == mHeaderText.getVisibility()&&canTextVisable) {
 			mHeaderText.setVisibility(View.VISIBLE);
 		}
 		if (View.INVISIBLE == mHeaderProgress.getVisibility()) {
@@ -321,7 +338,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 		if (View.INVISIBLE == mHeaderImage.getVisibility()) {
 			mHeaderImage.setVisibility(View.VISIBLE);
 		}
-		if (View.INVISIBLE == mSubHeaderText.getVisibility()) {
+		if (View.INVISIBLE == mSubHeaderText.getVisibility()&&canTextVisable&&canSubTestVisable) {
 			mSubHeaderText.setVisibility(View.VISIBLE);
 		}
 	}
@@ -353,7 +370,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 
 				// Only set it to Visible if we're GONE, otherwise VISIBLE will
 				// be set soon
-				if (View.GONE == mSubHeaderText.getVisibility()) {
+				if (View.GONE == mSubHeaderText.getVisibility()&&canTextVisable&&canSubTestVisable) {
 					mSubHeaderText.setVisibility(View.VISIBLE);
 				}
 			}
@@ -388,6 +405,18 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 		if (null != mSubHeaderText) {
 			mSubHeaderText.setTextColor(color);
 		}
+	}
+
+	private void setTextVisibility(boolean visibility){
+		canTextVisable =visibility;
+		mTextLayout.setVisibility(visibility ? View.VISIBLE : View.GONE);
+		if(null!=mHeaderText){
+			mHeaderText.setVisibility(visibility ? View.VISIBLE : View.GONE);
+		}
+	}
+
+	private  void setSubTextVisibility(boolean visibility){
+		canSubTestVisable=visibility;
 	}
 
 }
