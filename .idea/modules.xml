@@ -31,6 +31,8 @@
       <module fileurl="file://$PROJECT_DIR$/KeywordsFlowDemo/KeywordsFlowDemo.iml" filepath="$PROJECT_DIR$/KeywordsFlowDemo/KeywordsFlowDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/KeywordsFlowDemo/KeywordsFlowDemo.iml" filepath="$PROJECT_DIR$/KeywordsFlowDemo/KeywordsFlowDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibraryProject.iml" filepath="$PROJECT_DIR$/LibraryProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" filepath="$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
@@ -43,6 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" filepath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" filepath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SqlDemo/SqlDemo.iml" filepath="$PROJECT_DIR$/SqlDemo/SqlDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" />
     </modules>
   </component>
 </project>
