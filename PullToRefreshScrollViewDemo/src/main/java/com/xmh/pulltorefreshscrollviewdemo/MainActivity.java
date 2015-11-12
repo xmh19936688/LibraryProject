@@ -8,13 +8,16 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshScrollView;
 
 public class MainActivity extends AppCompatActivity {
+    PullToRefreshScrollView pullToRefreshScrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final PullToRefreshScrollView pullToRefreshScrollView = (PullToRefreshScrollView) findViewById(R.id.ptr_sv_main);
+         pullToRefreshScrollView = (PullToRefreshScrollView) findViewById(R.id.ptr_sv_main);
+
+
 
         pullToRefreshScrollView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener<ScrollView>() {
             @Override
@@ -29,4 +32,5 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
 }

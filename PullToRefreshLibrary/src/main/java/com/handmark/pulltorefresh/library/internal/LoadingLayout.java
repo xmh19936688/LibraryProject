@@ -33,7 +33,6 @@ import android.view.animation.LinearInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -53,7 +52,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 	private LinearLayout mTextLayout;
 
 	protected final ImageView mHeaderImage;
-	protected final ProgressBar mHeaderProgress;
+	protected View mHeaderProgress;
 
 	private boolean mUseIntrinsicAnimation;
 
@@ -88,7 +87,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 		mInnerLayout = (RelativeLayout) findViewById(R.id.fl_inner);
 		mTextLayout= (LinearLayout) mInnerLayout.findViewById(R.id.ll_text);
 		mHeaderText = (TextView) mInnerLayout.findViewById(R.id.pull_to_refresh_text);
-		mHeaderProgress = (ProgressBar) mInnerLayout.findViewById(R.id.pull_to_refresh_progress);
+		mHeaderProgress = (View) mInnerLayout.findViewById(R.id.pull_to_refresh_circle_progress);
 		mSubHeaderText = (TextView) mInnerLayout.findViewById(R.id.pull_to_refresh_sub_text);
 		mHeaderImage = (ImageView) mInnerLayout.findViewById(R.id.pull_to_refresh_image);
 
@@ -419,4 +418,18 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 		canSubTestVisable=visibility;
 	}
 
+//	public void setProgressBar(View view){
+//		if(view.getParent()!=null){
+//			((ViewGroup)view.getParent()).removeView(view);
+//		}
+//		FrameLayout.LayoutParams layoutParams = (FrameLayout.LayoutParams) mHeaderProgress.getLayoutParams();
+//		layoutParams.width= ViewGroup.LayoutParams.WRAP_CONTENT;
+//		layoutParams.height= ViewGroup.LayoutParams.WRAP_CONTENT;
+//		layoutParams.gravity=Gravity.CENTER;
+//		view.setLayoutParams(layoutParams);
+//		view.setVisibility(View.GONE);
+//		mInnerLayout.removeView(mHeaderProgress);
+//		mInnerLayout.addView(view);
+//		mHeaderProgress=view;
+//	}
 }

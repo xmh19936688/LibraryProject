@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cpb="http://schemas.android.com/apk/res-auto"
+    >
 
     <RelativeLayout
         android:id="@+id/fl_inner"
@@ -31,6 +34,14 @@
                 android:layout_gravity="center"
                 android:indeterminate="true"
                 android:visibility="gone" />
+
+            <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+                android:id="@+id/pull_to_refresh_circle_progress"
+                cpb:mlpb_progress_stoke_width="3dp"
+                cpb:mlpb_progress_color="#566da9"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:visibility="gone"/>
         </FrameLayout>
 
         <LinearLayout
