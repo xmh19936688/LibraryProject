@@ -19,6 +19,8 @@
             <option value="$PROJECT_DIR$/CustomToastDemo" />
             <option value="$PROJECT_DIR$/DialogAnimationDemo" />
             <option value="$PROJECT_DIR$/DoubleBackExitDemo" />
+            <option value="$PROJECT_DIR$/DoubleLevelStickyHeaderDemo" />
+            <option value="$PROJECT_DIR$/DoubleLevelStickyHeaderLibrary" />
             <option value="$PROJECT_DIR$/DragLayoutDemo" />
             <option value="$PROJECT_DIR$/FragmentViewPagerDemo" />
             <option value="$PROJECT_DIR$/FrameAnimationImageViewDemo" />
@@ -34,6 +36,12 @@
             <option value="$PROJECT_DIR$/SlidingMenuDemo" />
             <option value="$PROJECT_DIR$/SlidingMenuLibrary" />
             <option value="$PROJECT_DIR$/SqlDemo" />
+            <option value="$PROJECT_DIR$/StickyGridHeadersDemo" />
+            <option value="$PROJECT_DIR$/StickyGridHeadersLibrary" />
+            <option value="$PROJECT_DIR$/StickyHeadersRecyclerViewDemo" />
+            <option value="$PROJECT_DIR$/StickyHeadersRecyclerViewLibrary" />
+            <option value="$PROJECT_DIR$/UltimateRecyclerViewDemo" />
+            <option value="$PROJECT_DIR$/UltimateRecyclerViewLibrary" />
           </set>
         </option>
       </GradleProjectSettings>
