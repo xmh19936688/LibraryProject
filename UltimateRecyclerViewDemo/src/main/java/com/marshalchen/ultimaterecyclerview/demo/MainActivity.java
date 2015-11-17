@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -127,8 +126,8 @@ public class MainActivity extends AppCompatActivity implements ActionMode.Callba
         simpleRecyclerViewAdapter = new SimpleAdapter(stringList);
 
         linearLayoutManager = new LinearLayoutManager(this);
-//        ultimateRecyclerView.setLayoutManager(linearLayoutManager);
-        ultimateRecyclerView.setLayoutManager(new GridLayoutManager(this,3));
+        ultimateRecyclerView.setLayoutManager(linearLayoutManager);
+//        ultimateRecyclerView.setLayoutManager(new GridLayoutManager(this,3));
         ultimateRecyclerView.setAdapter(simpleRecyclerViewAdapter);
 
         StickyRecyclerHeadersDecoration headersDecor = new StickyRecyclerHeadersDecoration(simpleRecyclerViewAdapter);

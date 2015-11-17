@@ -35,7 +35,7 @@
                 android:indeterminate="true"
                 android:visibility="gone" />
 
-            <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+            <com.xmh.view.CircleProgressBar
                 android:id="@+id/pull_to_refresh_circle_progress"
                 cpb:mlpb_progress_stoke_width="3dp"
                 cpb:mlpb_progress_color="#566da9"

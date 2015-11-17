@@ -25,4 +25,5 @@ dependencies {
     compile project(':PullToRefreshLibrary')
     compile 'com.android.support:appcompat-v7:23.1.0'
     compile project(':MaterialLoadingProgressBarLibrary')
+    compile project(':PullToRefreshSample')
 }
