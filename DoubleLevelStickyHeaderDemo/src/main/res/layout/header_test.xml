@@ -26,6 +26,7 @@
     android:paddingRight="16dp"
     android:textAppearance="?android:attr/textAppearanceMedium"
     android:textColor="#FFF"
+    android:clickable="true"
     tools:text="Sample text">
 
 </TextView>

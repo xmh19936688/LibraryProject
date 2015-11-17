@@ -18,6 +18,7 @@ package ca.barrenechea.stickyheaders.widget;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,8 +44,16 @@ public class StickyTestAdapter extends RecyclerView.Adapter<StickyTestAdapter.Vi
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(final ViewHolder viewHolder, int i) {
         viewHolder.item.setText("Item " + i);
+        viewHolder.item.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.setBackgroundColor(0x00ff00);
+                viewHolder.item.setTextColor(0x00ff00);
+                Log.e("xmh-click","i");
+            }
+        });
     }
 
     @Override
@@ -64,8 +73,17 @@ public class StickyTestAdapter extends RecyclerView.Adapter<StickyTestAdapter.Vi
     }
 
     @Override
-    public void onBindHeaderViewHolder(HeaderHolder viewholder, int position) {
+    public void onBindHeaderViewHolder(final HeaderHolder viewholder, int position) {
         viewholder.header.setText("Header " + getHeaderId(position));
+        viewholder.header.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //no run
+                view.setBackgroundColor(0x00ff00);
+                viewholder.header.setTextColor(0x00ff00);
+                Log.e("xmh-click","j");
+            }
+        });
     }
 
 

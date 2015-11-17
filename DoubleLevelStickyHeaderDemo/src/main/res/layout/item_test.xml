@@ -23,5 +23,6 @@
     android:layout_height="72dp"
     android:gravity="center_vertical"
     android:padding="16dp"
+    android:clickable="true"
     android:textAppearance="?android:attr/textAppearanceMedium"
     tools:text="Sample text"/>
