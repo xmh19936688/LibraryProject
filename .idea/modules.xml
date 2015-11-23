@@ -36,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PopupWindowDemo/PopupWindowDemo.iml" filepath="$PROJECT_DIR$/PopupWindowDemo/PopupWindowDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" filepath="$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" filepath="$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
