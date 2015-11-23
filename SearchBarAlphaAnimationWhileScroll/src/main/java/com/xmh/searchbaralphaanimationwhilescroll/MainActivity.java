@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
         ptrContent.getId();
 
-//        tvSearch.getBackground().setAlpha(0);
 
         ScrollView scrollView = ptrContent.getRefreshableView();
 
 //        scrollView.setOnTouchListener(new OnContentTouchListener());
 
-        tvContent.setOnScrollChangeListener(new View.OnScrollChangeListener() {
+
+        scrollView.setOnScrollChangeListener(new View.OnScrollChangeListener() {
             @Override
             public void onScrollChange(View v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
 
