@@ -20,8 +20,6 @@
       <module fileurl="file://$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" filepath="$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" filepath="$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoubleLevelStickyHeaderDemo/DoubleLevelStickyHeaderDemo.iml" filepath="$PROJECT_DIR$/DoubleLevelStickyHeaderDemo/DoubleLevelStickyHeaderDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DoubleLevelStickyHeaderDemo/DoubleLevelStickyHeaderDemo.iml" filepath="$PROJECT_DIR$/DoubleLevelStickyHeaderDemo/DoubleLevelStickyHeaderDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DoubleLevelStickyHeaderLibrary/DoubleLevelStickyHeaderLibrary.iml" filepath="$PROJECT_DIR$/DoubleLevelStickyHeaderLibrary/DoubleLevelStickyHeaderLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoubleLevelStickyHeaderLibrary/DoubleLevelStickyHeaderLibrary.iml" filepath="$PROJECT_DIR$/DoubleLevelStickyHeaderLibrary/DoubleLevelStickyHeaderLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/DragLayoutDemo/DragLayoutDemo.iml" filepath="$PROJECT_DIR$/DragLayoutDemo/DragLayoutDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/FragmentViewPagerDemo/FragmentViewPagerDemo.iml" filepath="$PROJECT_DIR$/FragmentViewPagerDemo/FragmentViewPagerDemo.iml" />
@@ -50,16 +48,10 @@
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" filepath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SqlDemo/SqlDemo.iml" filepath="$PROJECT_DIR$/SqlDemo/SqlDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/StickyGridHeadersDemo/StickyGridHeadersDemo.iml" filepath="$PROJECT_DIR$/StickyGridHeadersDemo/StickyGridHeadersDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StickyGridHeadersDemo/StickyGridHeadersDemo.iml" filepath="$PROJECT_DIR$/StickyGridHeadersDemo/StickyGridHeadersDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StickyGridHeadersLibrary/StickyGridHeadersLibrary.iml" filepath="$PROJECT_DIR$/StickyGridHeadersLibrary/StickyGridHeadersLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/StickyGridHeadersLibrary/StickyGridHeadersLibrary.iml" filepath="$PROJECT_DIR$/StickyGridHeadersLibrary/StickyGridHeadersLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/StickyHeadersRecyclerViewDemo/StickyHeadersRecyclerViewDemo.iml" filepath="$PROJECT_DIR$/StickyHeadersRecyclerViewDemo/StickyHeadersRecyclerViewDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StickyHeadersRecyclerViewDemo/StickyHeadersRecyclerViewDemo.iml" filepath="$PROJECT_DIR$/StickyHeadersRecyclerViewDemo/StickyHeadersRecyclerViewDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StickyHeadersRecyclerViewLibrary/StickyHeadersRecyclerViewLibrary.iml" filepath="$PROJECT_DIR$/StickyHeadersRecyclerViewLibrary/StickyHeadersRecyclerViewLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/StickyHeadersRecyclerViewLibrary/StickyHeadersRecyclerViewLibrary.iml" filepath="$PROJECT_DIR$/StickyHeadersRecyclerViewLibrary/StickyHeadersRecyclerViewLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/UltimateRecyclerViewDemo/UltimateRecyclerViewDemo.iml" filepath="$PROJECT_DIR$/UltimateRecyclerViewDemo/UltimateRecyclerViewDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UltimateRecyclerViewDemo/UltimateRecyclerViewDemo.iml" filepath="$PROJECT_DIR$/UltimateRecyclerViewDemo/UltimateRecyclerViewDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UltimateRecyclerViewLibrary/UltimateRecyclerViewLibrary.iml" filepath="$PROJECT_DIR$/UltimateRecyclerViewLibrary/UltimateRecyclerViewLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/UltimateRecyclerViewLibrary/UltimateRecyclerViewLibrary.iml" filepath="$PROJECT_DIR$/UltimateRecyclerViewLibrary/UltimateRecyclerViewLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" />
     </modules>
