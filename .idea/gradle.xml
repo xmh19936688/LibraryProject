@@ -11,21 +11,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ActionbarSherlockLibrary" />
-            <option value="$PROJECT_DIR$/ActivitySwitchAnimation" />
             <option value="$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8" />
-            <option value="$PROJECT_DIR$/ConvenientBannerDemo" />
-            <option value="$PROJECT_DIR$/ConvenientBannerLibrary" />
             <option value="$PROJECT_DIR$/CustomShapeView" />
             <option value="$PROJECT_DIR$/CustomToastDemo" />
-            <option value="$PROJECT_DIR$/DialogAnimationDemo" />
             <option value="$PROJECT_DIR$/DoubleBackExitDemo" />
             <option value="$PROJECT_DIR$/DragLayoutDemo" />
             <option value="$PROJECT_DIR$/FragmentViewPagerDemo" />
-            <option value="$PROJECT_DIR$/FrameAnimationImageViewDemo" />
             <option value="$PROJECT_DIR$/IOCDemo" />
             <option value="$PROJECT_DIR$/JniInGifMakerDemo" />
             <option value="$PROJECT_DIR$/KJDBDemo" />
-            <option value="$PROJECT_DIR$/KeywordsFlowDemo" />
             <option value="$PROJECT_DIR$/MaterialLoadingProgressBarDemo" />
             <option value="$PROJECT_DIR$/MaterialLoadingProgressBarLibrary" />
             <option value="$PROJECT_DIR$/PopupWindowDemo" />

@@ -1,4 +1,4 @@
 /build
 /src/androidTest
 /src/test
-/JniInGifMakerDemo.iml
+/*.iml
