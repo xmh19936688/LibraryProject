@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
  * Created by mengh on 2015/10/29 029.
  */
 public class SqlHelper extends SQLiteOpenHelper {
-    public static final String DB_NAME = "bbtv_tag.db";// 数据库名称
+    public static final String DB_NAME = "sqldemo.db";// 数据库名称
     public static final int VERSION = 1;
 
     public static final String TABLE_TAG = "t_tag";//数据表
