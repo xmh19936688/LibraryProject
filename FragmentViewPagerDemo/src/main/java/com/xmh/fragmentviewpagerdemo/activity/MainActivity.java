@@ -1,9 +1,15 @@
-package com.xmh.fragmentviewpagerdemo;
+package com.xmh.fragmentviewpagerdemo.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+
+import com.xmh.fragmentviewpagerdemo.fragment.CookFragment;
+import com.xmh.fragmentviewpagerdemo.adapter.FragmentsAdapter;
+import com.xmh.fragmentviewpagerdemo.fragment.MainFragment;
+import com.xmh.fragmentviewpagerdemo.fragment.MeFragment;
+import com.xmh.fragmentviewpagerdemo.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,5 +45,7 @@ public class MainActivity extends AppCompatActivity {
         mFragmentsAdapter=new FragmentsAdapter(getSupportFragmentManager());
         mFragmentsAdapter.setList(mFragmentList);
         vpPages.setAdapter(mFragmentsAdapter);
+        //设置缓存的fragment数，使fragment在切换时不被销毁
+        vpPages.setOffscreenPageLimit(2);
     }
 }
