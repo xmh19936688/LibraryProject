@@ -16,9 +16,19 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static String EVENT_INTENT_ACTION="com.xmh.intent.action";
+
     @Bind(R.id.btn_send)Button btnSend;
 
-    private static String EVENT_INTENT_ACTION="com.xmh.intent.action";
+    //初始化一个receiver
+    private BroadcastReceiver broadcastReceiver=new BroadcastReceiver(){
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            //接收后的动作
+            method();
+        }
+    };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,13 +39,14 @@ public class MainActivity extends AppCompatActivity {
         //注册一个receiver
         IntentFilter intentFilter=new IntentFilter();
         intentFilter.addAction(EVENT_INTENT_ACTION);
-        LocalBroadcastManager.getInstance(this).registerReceiver(new BroadcastReceiver(){
-            @Override
-            public void onReceive(Context context, Intent intent) {
-                //接收后的动作
-                method();
-            }
-        },intentFilter);
+        LocalBroadcastManager.getInstance(this).registerReceiver(broadcastReceiver,intentFilter);
+    }
+
+    @Override
+    protected void onDestroy() {
+        //销毁时注销receiver
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(broadcastReceiver);
+        super.onDestroy();
     }
 
     @OnClick(R.id.btn_send)
