@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" filepath="$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/KJDBDemo/KJDBDemo.iml" filepath="$PROJECT_DIR$/KJDBDemo/KJDBDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibraryProject.iml" filepath="$PROJECT_DIR$/LibraryProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LocalBroadcastManagerDemo/LocalBroadcastManagerDemo.iml" filepath="$PROJECT_DIR$/LocalBroadcastManagerDemo/LocalBroadcastManagerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" />
@@ -38,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" filepath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SqlDemo/SqlDemo.iml" filepath="$PROJECT_DIR$/SqlDemo/SqlDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testjavademo/testjavademo.iml" filepath="$PROJECT_DIR$/testjavademo/testjavademo.iml" />
     </modules>
   </component>
 </project>

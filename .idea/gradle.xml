@@ -17,10 +17,10 @@
             <option value="$PROJECT_DIR$/CustomViewWithAnimationDemo" />
             <option value="$PROJECT_DIR$/DoubleBackExitDemo" />
             <option value="$PROJECT_DIR$/DragLayoutDemo" />
-            <option value="$PROJECT_DIR$/FragmentViewPagerDemo" />
             <option value="$PROJECT_DIR$/IOCDemo" />
             <option value="$PROJECT_DIR$/JniInGifMakerDemo" />
             <option value="$PROJECT_DIR$/KJDBDemo" />
+            <option value="$PROJECT_DIR$/LocalBroadcastManagerDemo" />
             <option value="$PROJECT_DIR$/MaterialLoadingProgressBarDemo" />
             <option value="$PROJECT_DIR$/MaterialLoadingProgressBarLibrary" />
             <option value="$PROJECT_DIR$/PopupWindowDemo" />
