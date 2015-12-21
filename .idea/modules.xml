@@ -38,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuDemo/SlidingMenuDemo.iml" filepath="$PROJECT_DIR$/SlidingMenuDemo/SlidingMenuDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" filepath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SqlDemo/SqlDemo.iml" filepath="$PROJECT_DIR$/SqlDemo/SqlDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TouchEventDemo/TouchEventDemo.iml" filepath="$PROJECT_DIR$/TouchEventDemo/TouchEventDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/testjavademo/testjavademo.iml" filepath="$PROJECT_DIR$/testjavademo/testjavademo.iml" />
     </modules>
