@@ -19,7 +19,6 @@
             <option value="$PROJECT_DIR$/DoubleBackExitDemo" />
             <option value="$PROJECT_DIR$/DragLayoutDemo" />
             <option value="$PROJECT_DIR$/IOCDemo" />
-            <option value="$PROJECT_DIR$/JniInGifMakerDemo" />
             <option value="$PROJECT_DIR$/KJDBDemo" />
             <option value="$PROJECT_DIR$/LocalBroadcastManagerDemo" />
             <option value="$PROJECT_DIR$/MaterialLoadingProgressBarDemo" />
@@ -29,13 +28,10 @@
             <option value="$PROJECT_DIR$/PullToRefreshLibrary" />
             <option value="$PROJECT_DIR$/PullToRefreshSample" />
             <option value="$PROJECT_DIR$/PullToRefreshScrollViewDemo" />
-            <option value="$PROJECT_DIR$/RuntimeLoadSODemo" />
             <option value="$PROJECT_DIR$/SearchBarAlphaAnimationWhileScroll" />
-            <option value="$PROJECT_DIR$/SimpleJniDemo" />
             <option value="$PROJECT_DIR$/SlidingMenuDemo" />
             <option value="$PROJECT_DIR$/SlidingMenuLibrary" />
             <option value="$PROJECT_DIR$/SqlDemo" />
-            <option value="$PROJECT_DIR$/StaticLoadSODemo" />
             <option value="$PROJECT_DIR$/TouchEventDemo" />
           </set>
         </option>
