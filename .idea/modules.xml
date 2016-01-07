@@ -3,44 +3,32 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActionbarSherlockLibrary/ActionbarSherlockLibrary.iml" filepath="$PROJECT_DIR$/ActionbarSherlockLibrary/ActionbarSherlockLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ActionbarSherlockLibrary/ActionbarSherlockLibrary.iml" filepath="$PROJECT_DIR$/ActionbarSherlockLibrary/ActionbarSherlockLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8/AndroidGifDrawableLibrary1.1.8.iml" filepath="$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8/AndroidGifDrawableLibrary1.1.8.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8/AndroidGifDrawableLibrary1.1.8.iml" filepath="$PROJECT_DIR$/AndroidGifDrawableLibrary1.1.8/AndroidGifDrawableLibrary1.1.8.iml" />
       <module fileurl="file://$PROJECT_DIR$/BackTaskManager/BackTaskManager.iml" filepath="$PROJECT_DIR$/BackTaskManager/BackTaskManager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CustomShapeView/CustomShapeView.iml" filepath="$PROJECT_DIR$/CustomShapeView/CustomShapeView.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomShapeView/CustomShapeView.iml" filepath="$PROJECT_DIR$/CustomShapeView/CustomShapeView.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomToastDemo/CustomToastDemo.iml" filepath="$PROJECT_DIR$/CustomToastDemo/CustomToastDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomViewWithAnimationDemo/CustomViewWithAnimationDemo.iml" filepath="$PROJECT_DIR$/CustomViewWithAnimationDemo/CustomViewWithAnimationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" filepath="$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" filepath="$PROJECT_DIR$/DoubleBackExitDemo/DoubleBackExitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DragLayoutDemo/DragLayoutDemo.iml" filepath="$PROJECT_DIR$/DragLayoutDemo/DragLayoutDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOCDemo/IOCDemo.iml" filepath="$PROJECT_DIR$/IOCDemo/IOCDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" filepath="$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" filepath="$PROJECT_DIR$/JniInGifMakerDemo/JniInGifMakerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/KJDBDemo/KJDBDemo.iml" filepath="$PROJECT_DIR$/KJDBDemo/KJDBDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/LibraryProject.iml" filepath="$PROJECT_DIR$/LibraryProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/LocalBroadcastManagerDemo/LocalBroadcastManagerDemo.iml" filepath="$PROJECT_DIR$/LocalBroadcastManagerDemo/LocalBroadcastManagerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/MaterialLoadingProgressBarDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarLibrary/MaterialLoadingProgressBarLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/PopupWindowDemo/PopupWindowDemo.iml" filepath="$PROJECT_DIR$/PopupWindowDemo/PopupWindowDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PopupWindowDemo/PopupWindowDemo.iml" filepath="$PROJECT_DIR$/PopupWindowDemo/PopupWindowDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" filepath="$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" filepath="$PROJECT_DIR$/ProgressBarStyleInAndroid/ProgressBarStyleInAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshLibrary/PullToRefreshLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" filepath="$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" filepath="$PROJECT_DIR$/PullToRefreshSample/PullToRefreshSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" filepath="$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" filepath="$PROJECT_DIR$/PullToRefreshScrollViewDemo/PullToRefreshScrollViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/RuntimeLoadSODemo/RuntimeLoadSODemo.iml" filepath="$PROJECT_DIR$/RuntimeLoadSODemo/RuntimeLoadSODemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SearchBarAlphaAnimationWhileScroll/SearchBarAlphaAnimationWhileScroll.iml" filepath="$PROJECT_DIR$/SearchBarAlphaAnimationWhileScroll/SearchBarAlphaAnimationWhileScroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/SearchBarAlphaAnimationWhileScroll/SearchBarAlphaAnimationWhileScroll.iml" filepath="$PROJECT_DIR$/SearchBarAlphaAnimationWhileScroll/SearchBarAlphaAnimationWhileScroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleJniDemo/SimpleJniDemo.iml" filepath="$PROJECT_DIR$/SimpleJniDemo/SimpleJniDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuDemo/SlidingMenuDemo.iml" filepath="$PROJECT_DIR$/SlidingMenuDemo/SlidingMenuDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" filepath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SqlDemo/SqlDemo.iml" filepath="$PROJECT_DIR$/SqlDemo/SqlDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StaticLoadSODemo/StaticLoadSODemo.iml" filepath="$PROJECT_DIR$/StaticLoadSODemo/StaticLoadSODemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TouchEventDemo/TouchEventDemo.iml" filepath="$PROJECT_DIR$/TouchEventDemo/TouchEventDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/testjavademo/testjavademo.iml" filepath="$PROJECT_DIR$/testjavademo/testjavademo.iml" />
