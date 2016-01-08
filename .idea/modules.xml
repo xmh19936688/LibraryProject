@@ -26,7 +26,13 @@
       <module fileurl="file://$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" filepath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SqlDemo/SqlDemo.iml" filepath="$PROJECT_DIR$/SqlDemo/SqlDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TouchEventDemo/TouchEventDemo.iml" filepath="$PROJECT_DIR$/TouchEventDemo/TouchEventDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UltraPullToRefreshARR/UltraPullToRefreshARR.iml" filepath="$PROJECT_DIR$/UltraPullToRefreshARR/UltraPullToRefreshARR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UltraPullToRefreshDemo/UltraPullToRefreshDemo.iml" filepath="$PROJECT_DIR$/UltraPullToRefreshDemo/UltraPullToRefreshDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UltraPullToRefreshLibrary/UltraPullToRefreshLibrary.iml" filepath="$PROJECT_DIR$/UltraPullToRefreshLibrary/UltraPullToRefreshLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cube-sdk-1.0.44/cube-sdk-1.0.44.iml" filepath="$PROJECT_DIR$/cube-sdk-1.0.44/cube-sdk-1.0.44.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" filepath="$PROJECT_DIR$/MaterialLoadingProgressBarDemo/materialloadingprogressbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptr-demo/ptr-demo.iml" filepath="$PROJECT_DIR$/ptr-demo/ptr-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptr-lib/ptr-lib.iml" filepath="$PROJECT_DIR$/ptr-lib/ptr-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/testjavademo/testjavademo.iml" filepath="$PROJECT_DIR$/testjavademo/testjavademo.iml" />
     </modules>
   </component>
