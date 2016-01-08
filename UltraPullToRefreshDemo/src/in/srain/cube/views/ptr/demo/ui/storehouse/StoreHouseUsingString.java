@@ -18,7 +18,7 @@ import in.srain.cube.views.ptr.indicator.PtrIndicator;
 
 public class StoreHouseUsingString extends TitleBaseFragment {
 
-    final String[] mStringList = {"Alibaba", "TMALL 11-11"};
+    final String[] mStringList = {"XMH", "VOID"};
     private String mTitlePre;
 
     @Override
